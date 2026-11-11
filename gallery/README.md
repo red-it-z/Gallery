@@ -1,16 +1,97 @@
-# React + Vite
+# ✈️ Travel Bucket List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal travel bucket list built with React. Explore beautiful destinations around the world, discover activities and local foods, and keep track of the experiences you want to enjoy in each place.
 
-Currently, two official plugins are available:
+## 🌍 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Destination Gallery:** Browse a collection of destinations from around the world in a responsive, masonry-style layout.
+- **Interactive Lightbox:** Click on any destination to view its picture and additional information.
+- **Activities Checklist:** Discover and check off activities you want to experience at each destination.
+- **Foods to Try:** Explore local foods and keep track of dishes you want to taste.
+- **Interactive Modal:** View your checklists in a blurred overlay directly on top of the destination image.
+- **Responsive Design:** Enjoy the gallery on desktop, tablet, and mobile devices.
+- **Vintage Aesthetic:** A warm, minimal design inspired by travel journals and handwritten notes.
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS3
+- Vite
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+travel-bucket-list/
+├── public/
+│   └── images/
+├── src/
+│   ├── components/
+│   │   ├── DestinationGallery.jsx
+│   │   └── TravelChecklist.jsx
+│   ├── data/
+│   │   └── destinations.js
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/travel-bucket-list.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd travel-bucket-list
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal to view the application.
+
+## 📸 Screenshots
+
+_Add screenshots of your project here._
+
+## 💡 Future Improvements
+
+- Save checklist progress using local storage.
+- Allow users to add their own destinations.
+- Add destination search and filtering.
+- Track completed destinations.
+- Add a map to visualize travel destinations.
+- Create user accounts to save personal bucket lists.
+
+## 👩‍💻 Author
+
+**Redeat Tesfaye**
+
